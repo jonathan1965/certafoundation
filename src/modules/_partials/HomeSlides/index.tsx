@@ -32,13 +32,15 @@ const data = [
     lexLogo: '/assets/images/lex1.png',
   },
   {
-    imageUrl: '/assets/images/foundation.jpg',
+    imageUrl: '/assets/images/foundation.png',
     link: 'https://certafoundation.rw/',
-    about: '',
-    secondLine: '',
-    btnText: '',
+    title: 'Certa Foundation',
+    about: "Certa Foundation's Impact",
+    secondLine:'on the Legal Profession.',
+    btnText: 'Learn More',
   },
 ];
+
 
 const HomeSlides = ({
   setIndex,
@@ -95,7 +97,7 @@ const HomeSlides = ({
   }, [moveNext, data]);
 
   useEffect(() => {
-    setIndex(currentIndex);
+    setIndex(2);
   }, [currentIndex]);
 
   return (
@@ -115,39 +117,13 @@ const HomeSlides = ({
 
         {currentIndex >= 2 ? (
           <div className="pointer-events-none p-4 md:p-8 flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0 justify-between bottom-0 w-full z-50 absolute">
-            <div className="flex items-start flex-col md:max-w-[40%]">
+            <div className="flex items-start flex-col md:max-w-[40%] ml-auto">
               <img
                 src="/assets/images/whiteflogo.png"
                 alt="Certa"
                 height={12}
                 className="h-20"
               />
-              <p className="mt-2 text-white px-2">
-                The Certa Foundation is working to make a difference
-                in Rwanda - for both the community at-large and legal
-                profession.
-              </p>
-            </div>
-
-            <div className="flex flex-col md:max-w-[40%]">
-              <div className="flex items-center space-x-1">
-                <div className="w-48 h-0.5 bg-white" />
-                <p className="text-white/70 text-xs">Learn more</p>
-              </div>
-              <div className="flex items-end space-x-3 mt-6">
-                <img
-                  src="/assets/images/CJAlogos-WHT.png"
-                  alt="Certa"
-                  height={12}
-                  className="h-12"
-                />
-                <img
-                  src="/assets/images/CLI-Wht.png"
-                  alt="Certa"
-                  height={12}
-                  className="h-12"
-                />
-              </div>
             </div>
           </div>
         ) : null}
