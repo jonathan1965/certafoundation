@@ -29,25 +29,13 @@ export default class Static {
       lastName: 'Kabasinga',
       title: `Managing Partner /
 Head of ADR and Strategic Litigation.`,
-      desc: `Ms. Florida is the founder and Managing Partner of CERTA Law. She specialises in ADR and Strategic Litigation. She was appointed 
-      as the Chairperson of the East Africa Law Society Dispute Resolution Committee. Florida has gained reputation over, among other public 
-      interest litigation cases, challenges to constitutional provisions seeking authentic interpretation of laws before Rwanda’s Supreme Court. 
-      She is also a certified mediator by the International Institute of Mediation and Conflict Resolution and a prolific arbitrator with Kigali 
-      International Arbitration Centre where she represented international and domestic clients, including the International Union for 
-      Conservation of Nature (IUCN). Ms. Florida holds a Master of Laws (Magna cum Laude) in International Human Rights Law from the University 
-      of Notre Dame (Indiana, USA) and a Bachelor of Laws Degree (LLB Hons) from Makerere University (Kampala, Uganda). She has also received 
-      various training from prestigious institutions notably, University of Pretoria, South Africa, Erasmus University, The Hague, Netherlands, 
-      and Chartered Institute of Arbitrators, London. She has taught, at different times, International Criminal Law, Moot Courts and Common Law 
-      Litigation Principles and Techniques, among others, at different Universities in Rwanda and abroad, including at the Institute for Legal 
-      Practice & Development in Rwanda (ILPD). In addition to teaching, she is also a trainer where she regularly conducts training workshops for 
-      female advocates under the auspices of the Rwanda Bar Association aimed at inspiring and raising their capacity and profiles in the practice 
-      of law in Rwanda and in the East African Community. With an experience spanning almost 2 decades, Ms. Florida has previously worked for the 
-       of Rwanda as a Senior Legal Advisor to the Prosecutor General and the International Crimes Unit, National Public Prosecution Authority, 
-       Rwanda. Internationally, Ms. Florida is also well exposed where she worked as Variously Appeals Counsel, Assistant Appeals Counsel and Case 
-       Manager at the Office of the Prosecutor, United Nations International Criminal Tribunal for Rwanda (ICTR). Ms. Florida is a member of the 
-       Rwanda Bar Association, East African Law Society, American Bar Association, International Association of Prosecutors, the Chartered Institute 
-       of Arbitrators Kigali Arbitration Center. She speaks at various conferences on cyber security and International Humanitarian Law all over the 
-       world, most recently in Washington DC, Michigan, Nairobi, and San Diego. She speaks three languages Kinyarwanda, English and Kiswahili.`,
+      desc: `Ms. Kabasinga is the Founder and Managing Partner of certalaw chambers.
+She has two-decade experience as a prosecutor and in private legal practice, including in strategic litigation and public interest litigation. She is also a certified mediator by the International Institute of Mediation and Conflict Resolution and a prolific arbitrator with Kigali International Arbitration Centre where she represented international and domestic clients, including the International Union for Conservation of Nature (IUCN). Ms. Florida holds a Master of Laws (Magna cum Laude) in International Human Rights Law from the University of Notre Dame (Indiana, USA) and a Bachelor of Laws Degree (LLB Hons) from Makerere University (Kampala, Uganda). She has also received various trainings from prestigious institutions notably, the University of Pretoria, South Africa, Erasmus University, The Hague, Netherlands, and Chartered Institute of Arbitrators, London.
+
+She has taught, at different times, International Criminal Law, Moot Courts and Common Law Litigation Principles and Techniques, among others, at different Universities in Rwanda and abroad, including at the Institute for Legal Practice & Development in Rwanda (ILPD). In addition to teaching, she is also a trainer where she regularly conducts training workshops for female advocates under the auspices of the Rwanda Bar Association aimed at inspiring and raising their capacity and profiles in the practice of law in Rwanda and in the East African Community. Ms. Florida has previously worked for the government of Rwanda as a Senior Legal Advisor to the Prosecutor General and the International Crimes Unit, National Public Prosecution Authority, Rwanda.
+
+Internationally, Ms. Florida is also well exposed where she worked as an Appeals Counsel, Assistant Appeals Counsel and Case Manager at the Office of the Prosecutor, United Nations International Criminal Tribunal for Rwanda (ICTR). Ms. Florida is a member of the Rwanda Bar Association, the East African Law Society, the American Bar Association, the International Association of Prosecutors, and a member of the Chartered Institute of Arbitrators at the Kigali Arbitration Center. She speaks at various conferences on, among others, International Humanitarian Law and International Criminal Law all over the world, most recently in Washington DC, Michigan, Nairobi, and San Diego. She speaks three languages namely Kinyarwanda, English and Kiswahili.
+`,
     },
     {
       image: '/assets/images/staff/Maurice.jpg',
@@ -77,14 +65,28 @@ He also contributed to various research projects for the Rwandan Ministry of
       (ULK).He is currently conducting his PhD research in insolvency/bankruptcy law at Vrije University Amsterdam (VU) in Netherlands, he holds a Master’s degree(LLM) in international business law and globalization from Utrecht University(Netherlands), a Diploma in Legal Practice from the Institute of Legal Practice and Development (ILPD) and a Bachelor’sdegree (LLB) in law from the Kigali Independent University (ULK).
       Sadiki is fluent in French, English,Swahili and Kinyarwanda`,
     },
+    {
+      image: '/assets/images/staff/john.jpg',
+      firstName: 'John',
+      lastName: 'Ngarambe',
+      title: 'Research Consultant',
+      desc: `Me. NGARAMBE John holds a Master in Business Administration from East and Southern African Management Institute (ESAMI), a Post-graduate Diploma in Legal Practice from the Institute of Legal Practice and Development (ILPD), and a Bachelor’s Degree in Law from the University of Rwanda (UR). 
+      With over 20 years in Diplomatic service where he represented the Government of Rwanda in London-United Kingdom, Kampala – Uganda, and in Addis Ababa at the African Union, Me. NGARAMBE has accumulated a wide-range of experience. These include amongst others, International Relations, facilitating International Investments and trade, establishment of cooperation agreements in various fields between and amongst countries, between and amongst public/private entities, promotion of Investment and Trade, immigration and emigration, etc. 
+      Me. NGARAMBE is currently an Associate at CERTA Law Chambers, specializing in Labor, Commercial and corporate Law.
+      `,
+    },
 
     {
       image: '/assets/images/staff/Bosco.jpg',
       firstName: 'Jean Bosco',
       lastName: 'Safari',
       title: 'Associate / Head of Case Management & Litigation',
-      desc: `Safari Jean Bosco is an Associate and Head of Case Management at CERTA Law. He holds a bachelor’s degree (LLB) from University of Rwanda and a Diploma in Legal Practice from the Institute of Legal Practice and Development. He also has a certificate in Media Law from the Thomson Foundation, a global media development Center. Bosco is currently pursuing a master’s degree in Business Law at the University of Rwanda.
-His focus area is litigation in matters relating to administrative, banking and finance. Within these practicing areas, Bosco has advised and represented numerous commercial entities both international and local. Before joining the Firm, Bosco worked with the Ministry of Justice as an integral part to the project titled ‘Leading Cases Arising in Civil Matters. He also, while at the University, was a commissioner in charge of Justice in a task force established to advocate for human rights. He is a native speaker of Kinyarwanda and speaks English fluently`,
+      desc: `Me. SAFARI Jean Bosco is an Associate and Head of Case Management at CERTA Law. He holds a bachelor’s degree (LLB) from National University of Rwanda together with a Diploma in Legal Practice obtained from the Institute of Legal Practice and Development (ILPD) in 2019. 
+He also has a certificate in Media Law in Rwanda from The Thomson Foundation, a global media development Center and is currently pursuing a master’s degree in Business Law at the University of Rwanda.
+His focus areas are administrative, labor, commercial, banking and finance. Within these practicing areas, Bosco has advised and represented numerous commercial entities both international and local. Before joining the Firm in 2017, Bosco worked with the Ministry of Justice being an integral part to the project titled ‘Leading Cases Arising in Civil Matters. 
+Bosco is a passionate and committed advocate and a member of the Rwanda Bar Association of which he gladly handled a number of Probono cases.
+He is a native speaker of Kinyarwanda and has excellent command of English language. Bosco has constantly engaged in activities that sparks more legal light, knowledge and expertise. 
+`,
     },
     {
       image: '/assets/images/staff/Chris.jpg',
@@ -92,9 +94,12 @@ His focus area is litigation in matters relating to administrative, banking and 
       lastName: 'Ainematsiko',
       title:
         'Associate / In-charge of Legal Compliance & Due Diligence',
-      desc: `Chris Ainematsiko oversees clientele general risk, due diligence, and legal compliance matters. He has a track record of expeditiously liaising with relevant institutions such as courts, National Prosecution Authority (NPPA), Rwanda Revenue Authority (RRA), Rwanda Development Board (RDB), Ministry of Foreign Affairs (MINAFFETE), Rwanda Governance Board (RGB), and Rwanda Land Center among others to see through a fast flow of transactions and legal compliance issues such as registration of companies, NGO’s INGO’s and Intellectual Property.
-Chris holds a Bachelor of Laws degree from University of Kigali and a Post Graduate Diploma in Legal Practice from the Institute of Legal Practice and Development. He is a member of the Rwanda Bar Association and the East African Law Society, and he is an associate of the Chartered Institute of Arbitrators. During his undergraduate studies, Chris represented Rwanda in different academic competitions such as the 2018 International Humanitarian Law Moot Court and the 2018 Peace Regional Moot Court on humanitarian law both held in
-Kigali. He has undertaken internships with the Commercial Court in Kigali and the Rwanda Revenue Authority. He is a native speaker of Kinyarwanda and has excellent command of the English language`,
+      desc: `Me. Chris AINEMATSIKO graduated from the University of Kigali with a Bachelor of Laws degree in 2019. He also possesses a Post Graduate Diploma in Legal Practice from the Institute of Legal Practice and Development and is a member of the Chartered Institute of Arbitrators.
+      He joined the Rwanda Bar Association and the East African Law Society in September of 2021 and has significant experience as a litigation Attorney. He handles the Certa Law’s Case Management and transaction operations through liaising with institutions such as courts of law and the National Public Prosecution Authority.
+      Chris is an integral member of the Certa Law Chambers Dispute Resolution team and is passionate about Intellectual property, General Commercial Law and Contract Law matters. His focus is within the corporate governance practice area where he deals with due diligence matters, registration of companies, NGO’s and INGO’s as well as intellectual property.
+      At undergraduate, Chris represented Rwanda in different academic competitions. Among them; the 2018 International Humanitarian Law Moot Court and the 2018 Peace Regional Moot Court on humanitarian law both held in Kigali. He has undertaken internships with the Commercial Court in Kigali and the Rwanda Revenue Authority.
+      He is a native speaker of Kinyarwanda and has excellent command of English.
+  `,
     },
 
     {
@@ -102,10 +107,12 @@ Kigali. He has undertaken internships with the Commercial Court in Kigali and th
       firstName: 'Patricia',
       lastName: 'Mutesi',
       title: 'Junior Associate',
-      desc: `Patricia is a Junior Associate at CERTA Law specializing in corporate and commercial matters at the Firm. Patricia holds a bachelor’s degree in Law (LLB) from the University of Rwanda and is currently pursuing a post graduate diploma in legal practice at the Institution of Legal Practice and Development (ILPD). In addition, she is an Associate of the Chartered Institute of Arbitrators(CIArb).
-      Patricia has a passion for corporate law and a particular interest in the areas of commercial transactions. On many occasions, she represented her university at different moot Court Competitions and emerged as the best female pleader at the 7th Edition of the National Moot Court Competition in Property and Land law (IPEACE) of 2019. She also participated in the 4th Edition of the ICRC National Moot Court Competition in 2019 in which she emerged as the first runner up.
-      She is a native speaker of Kinyarwanda and a fluent speaker of English
-      `,
+      desc: `Patricia is an Associate at CERTA Law specializing in Commercial Law matters at the Firm. Patricia holds a bachelor’s degree in Law (LLB) from the University of Rwanda and is a candidate for the post graduate diploma in legal practice at the Institution of Legal Practice and Development (ILPD). In addition, she holds a certificate on the Introduction to International Arbitration Assessment from the Chartered Institute of Arbitrators.
+Patricia has a passion for commercial law and a particular interest in the areas of transactional law. On numerous occasions, she has greatly assisted with company secretarial work for the Firm’s clients. She has worked on a number of commercial transactions that the Firm has handled.  
+Patricia has also represented her university at different moot Court Competitions and emerged as the best female pleader at the 7th Edition of the National Moot Court Competition in Property and Land law (IPEACE) of 2019. She also participated in the 4th Edition of the ICRC National Moot Court Competition in 2019 in which she emerged as the first runner up.
+
+She is a native speaker of Kinyarwanda and a fluent speaker of English
+`,
     },
 
     {
@@ -123,17 +130,20 @@ and holds a Magna Cum Laude LLB from Kigali Independent of University, ULK. She 
       firstName: 'Deogratias',
       lastName: 'Nteziryayo',
       title: 'Junior Associate',
-      desc: `Deogratias is a Junior Associate at Certa Law Chambers and a DLA Piper Fellow.
-Due to his outstanding academic achievements, Deogratias was awarded the DLA Piper Global Scholarship. He is a Regional Representative at Afronomicslaw Academic Forum and Co-founder and the Managing Editor of the University of Rwanda Law Review. After co-partnering in resurrection of the University of Rwanda Law Student Association, he served as its Director of the Legal Aid Clinics. Deogratias holds a Bachelor of Laws LLB (Hons) from the University of Rwanda and an Intermediate Diploma of Business and Corporate Law from Gelegenheit International Law Chambers. He is passionate about International Corporate and Fiscal Law and Public Interest Litigation. Deogratias did the Leadership Development Course at the University of Oxford, Saïd Business School in March 2022. He participated in diverse legal on top of which is the Virtual DLA Piper Africa Associates Training Academy. With Advocate for International Development (A4ID), he completed the “Law and Development Training Programme 2021: the Legal Path to Sustainable Development,” the programme which mainly centred on the current World Trilemma of Climate Change, Technology, and World Economic Inequalities; and captivated the lawyer’s social responsibility to harness the profession towards the SDGs. Regarding the practical experience, Deogratias volunteered at Certa Law Chambers and did a Judicial Clerkship at
-the Court of Appeal in 2021. Deogratias has a keen interest in research and litigation and possesses excellent mooting skills. He has represented the University of Rwanda in a National Moot Court Competition on Contracts Law, and his team won the pleadings and memorials best trophies`,
+      desc: `Deogratias (Deo) is a Junior Associate at Certa Law Chambers and a Pro Bono Council at Certa Foundation. He is a Regional Representative at Afronomicslaw Academic Forum and is a Co-founder and the Managing Editor of the University of Rwanda Law Review, a Co-founder of the University of Rwanda Law Student Association, and its Director of Legal Aid Clinics. Deo’s exceptional academic achievements and outstanding personal commitment to leadership earned him the DLA Piper Global Scholarship and Fellowship. With his Bachelor of Laws (LLB Hons) from the University of Rwanda, a post-graduate diploma in legal practice, and an Intermediate Diploma in Business and Corporate Law, he has established a strong foundation for his legal career. Deo is keenly interest in Corporate Transactions, Tech Solutions, and Sustainable Development.
+In his pursuit of professional growth, Deo has completed the Corporate Governance course with the International Compliance Association (ICA) and the Leadership Development Course at the University of Oxford, Saïd Business School. He participated in diverse legal training, including the Virtual DLA Piper Africa Associates Training Academy and the "Law and Development Training Programme 2021: the Legal Path to Sustainable Development" with Advocate for International Development (A4ID). This program focused on the current World Trilemma of Climate Change, Technology, and World Economic Inequalities, captivating the lawyer's social responsibility to harness the legal profession towards the attainment of the Sustainable Development Goals (SDGs).
+Gaining first-hand experience, Deo volunteered at Certa Law Chambers different times, undertook a Judicial Clerkship at the Court of Appeal in 2021, and served as an A4ID Pro Bono Volunteer. He is a native speaker of Kinyarwanda with an excellent command of English and Kiswahili. 
+`,
     },
     {
       image: '/assets/images/staff/Celine.jpg',
       firstName: 'Celine',
       lastName: 'Izabayo',
       title: 'Finance Manager',
-      desc: `Celine Izabayo is a Finance Manager at CERTA Law. She is a financial management enthusiast. Celine combines financial management skills and administrative skills where her reception management, client correspondence, communication and excellent organization at the law firm have been noted top-notch.
-Prior to joining CERTA Law, Celine worked with numerous entities including serving as the secretary and administrative assistant at Rwagasabo Safaris, Rwandan Water & Sanitation Corporation (WASAC) among others. Celine holds a bachelor’s degree in Finance from the University of Rwanda and in her efforts to bridge and combine the finance and administrative knowledge to the legal issues, she is currently pursuing an LLB at University of Kigali. At the Firm, she is mostly handling financial functions related to collection, analysing, recording and ensuring accuracy of the firm’s financial operations as well as ensuring good office management by performing general clerical tasks and providing assistance to the staff, and being the first contact of the company.`,
+      desc: `Celine Izabayo is an administrator and Finance Manager at CERTA Law. She is a financial management enthusiast, and she now counts 6 years of experience in the field. Celine combines financial management skills and administrative skills where her reception management, client correspondence, intelligent communication and excellent organization at the law firm have been noted top-notch. Prior to joining CERTA Law, Celine worked with numerous entities including serving as the secretary and administrative assistant at Rwagasabo Safaris, Rwandan Water & Sanitation Corporation (WASAC) among others. 
+      Celine holds a bachelor’s degree in Finance from the University of Rwanda and in her efforts to bridge and combine the finance and administrative knowledge to the legal issues, she is currently pursuing her LLB at Kigali Independent University.
+      At the law firm, she is mostly handling financial functions related to collection, analyzing, recording and ensuring accuracy of the firm’s financial operations as well as ensuring good office management by performing general clerical tasks and providing assistance to the staff, and being the first contact of the company.
+`,
     },
 
     // {
