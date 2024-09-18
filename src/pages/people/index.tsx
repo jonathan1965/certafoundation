@@ -6,6 +6,14 @@ import Header from 'modules/_partials/Header';
 import Footer from 'modules/_partials/Footer';
 import BioPopup from 'modules/_partials/BioPopup';
 import Static from 'system/static';
+import ExpandableText from 'pages/people/ExpandableText';
+
+interface ExpandableTextProps {
+  text: string;
+  maxLength?: number;
+}
+
+
 
 const ContactPage: NextPage = () => {
   return (
