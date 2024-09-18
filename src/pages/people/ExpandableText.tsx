@@ -18,12 +18,19 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({
     <div>
       <p>{isExpanded ? text : `${text.slice(0, maxLength)}...`}</p>
       {text.length > maxLength && (
-        <button onClick={handleToggle}>
+        <a style={linkStyle} onClick={handleToggle}>
           {isExpanded ? 'Show Less' : 'Show More'}
-        </button>
+        </a>
       )}
     </div>
   );
 };
+
+ const linkStyle = {
+   textDecoration: 'underline',
+   color: '#771114',
+   borderRadius: '4px',
+   display: 'inline-block',
+ };
 
 export default ExpandableText;
