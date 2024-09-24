@@ -105,7 +105,7 @@ const BioPopup: React.FC<BioPopupProps> = ({
                   </p>
                   <p className="mt-1 text-primary text-sm">{title}</p>
                 </div>
-                <ExpandableText text={desc} maxLength={100} />
+                <ExpandableText text={desc} maxLength={150} />
               </div>
             </div>
           </div>

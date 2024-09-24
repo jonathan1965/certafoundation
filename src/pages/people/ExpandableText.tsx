@@ -6,7 +6,7 @@ interface ExpandableTextProps {
 
 const ExpandableText: React.FC<ExpandableTextProps> = ({
   text,
-  maxLength = 100,
+  maxLength = 400,
 }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
 
@@ -16,8 +16,8 @@ const ExpandableText: React.FC<ExpandableTextProps> = ({
 
   return (
     <div>
-      <p>{isExpanded ? text : `${text.slice(0, maxLength)}...`}</p>
-      {text.length > maxLength && (
+      <p>{isExpanded ? text : `${text?.slice(0, maxLength)}...`}</p>
+      {text?.length > maxLength && (
         <a style={linkStyle} onClick={handleToggle}>
           {isExpanded ? 'Show Less' : 'Show More'}
         </a>

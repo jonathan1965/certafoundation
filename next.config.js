@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
+  rewrites: async () => {
+    return [
+      {
+        source: '/',
+        destination: '/index.html',
+      },
+    ]
+},
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
