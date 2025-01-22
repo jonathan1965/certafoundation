@@ -8,6 +8,42 @@ import Footer from 'modules/_partials/Footer';
 import PracticeItem from 'modules/_partials/PracticeItem';
 import Static from 'system/static';
 import PopupDrawer from 'modules/_partials/PopupDrawer';
+import {
+  Building,
+  DollarSign,
+  FileText,
+  Gavel,
+  Scale,
+  Shield,
+  Users,
+  Briefcase,
+  HandshakeIcon,
+  BookOpen,
+  Home,
+  Globe,
+  Heart,
+  Car,
+  Building2,
+} from 'lucide-react';
+
+const practiceAreas = [
+  { title: 'Government Contracts', Icon: Building },
+  { title: 'Banking & Finance', Icon: DollarSign },
+  { title: 'Employment & Labour', Icon: Users },
+  { title: 'Revenue & Taxation', Icon: FileText },
+  { title: 'Intellectual Property', Icon: Shield },
+  { title: 'Commercial Transactions', Icon: Briefcase },
+  { title: 'Environmental Law', Icon: Scale },
+  { title: 'Dispute Resolution', Icon: Gavel },
+  { title: 'Civil Law', Icon: HandshakeIcon },
+  { title: 'Education Law', Icon: BookOpen },
+  { title: 'Real Estate Law', Icon: Home },
+  { title: 'International Law', Icon: Globe },
+  { title: 'Healthcare Law', Icon: Heart },
+  { title: 'Transportation Law', Icon: Car },
+  { title: 'Corporate Law', Icon: Building2 },
+];
+import PracticeAreaCard from './PracticeArea';
 
 const PracticeAreas: NextPage = () => {
   const { push } = useRouter();
@@ -32,7 +68,7 @@ const PracticeAreas: NextPage = () => {
               className="top-0 absolute z-0"
             />
             <div className="top-0 mx-auto absolute h-full flex flex-col justify-center w-full md:max-w-6xl">
-              <h1 className="text-2xl md:text-4xl font-semibold text-white">
+              <h1 className="text-2xl md:text-4xl font-semibold text-primary">
                 Our Practice Areas
               </h1>
               <div className="hidden mt-3 flex-col items-start text-black italic">
@@ -76,8 +112,24 @@ const PracticeAreas: NextPage = () => {
                     />
                   </PopupDrawer>
                 ))}
-              </div>
+              </div> 
               <div className="h-[1px] w-full opacity-25 bg-primary rounded" />
+                    
+                     {/* New Changes  */}
+              <div className="container mx-auto  py-16">
+              
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 place-items-center gap-4">
+                  {practiceAreas.map(area => (
+                    
+                    <PracticeAreaCard
+                      key={area.title}
+                      title={area.title}
+                      Icon={area.Icon}
+                    />
+                  ))}
+                </div>
+                
+              </div>
             </div>
           </div>
         </div>
